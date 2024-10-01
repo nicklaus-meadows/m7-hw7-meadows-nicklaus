@@ -80,6 +80,8 @@ main > section.hero {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  position: sticky;
+  top: 0;
   /* make this banner stick to the top! */
 }
 
@@ -106,6 +108,12 @@ main article {
 main p {
   line-height: 1.75;
   margin-bottom: 48px;;
+}
+
+article p:first-of-type:first-letter {
+  color: blue;
+  font-size: 75px;
+  padding-right: 15px;
 }
 
 main > article img {
