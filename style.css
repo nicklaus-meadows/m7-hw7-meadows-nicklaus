@@ -112,8 +112,11 @@ main p {
 
 article p:first-of-type:first-letter {
   color: blue;
-  font-size: 75px;
+  font-size: 80px;
   padding-right: 15px;
+  line-height: 1;
+  float: left;
+  margin: 0;
 }
 
 main > article img {
