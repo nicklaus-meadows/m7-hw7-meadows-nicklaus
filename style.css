@@ -153,11 +153,22 @@ span.tooltip:focus {
 span.tooltip:hover > span,
 span.tooltip:focus > span {
   display: inline;
+  visibility: visible;
 }
 
 /* styling for tooltip bubble */
 span.tooltip span {
   display: none;
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  top: -125px;
+  left: 15%;
 }
 
 /* styling for tooltip bubble arrow */
